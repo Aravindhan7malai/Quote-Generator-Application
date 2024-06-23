@@ -1,0 +1,54 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://picsum.photos/800/600') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.quote_container h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.quote_container p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    color: #ccc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.generator_button, .sound_button, .copy_button {
+    background: #555;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.generator_button:hover, .sound_button:hover, .copy_button:hover {
+    background: #777;
+}
