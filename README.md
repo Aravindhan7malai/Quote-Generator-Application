@@ -20,3 +20,5 @@ This is a simple Quote Generator web application that displays a random quote al
 
 ## Link to access the application
 
+https://aravindhan7malai.github.io/Quote-Generator-Application/
+
